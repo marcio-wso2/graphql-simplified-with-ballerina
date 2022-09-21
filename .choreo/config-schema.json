@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "marciowso2": {
+      "type": "object",
+      "properties": {
+        "graphql_simplified_with_ballerina": {
+          "type": "object",
+          "properties": {
+            "fitFitApiUrl": {
+              "type": "string",
+              "description": ""
+            },
+            "back_ends": {
+              "type": "object",
+              "properties": {
+                "sleep_summary_port": {
+                  "type": "integer",
+                  "description": ""
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
